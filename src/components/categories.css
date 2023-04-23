@@ -1,0 +1,19 @@
+.grilla {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.9rem;
+    margin-top: 3rem;
+    max-width: 100%;
+}
+
+.grilla-items {
+    width: calc(33.33% - 0.9rem);
+    background-color: #8a8cb5;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-transform: uppercase;
+    
+}
