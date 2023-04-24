@@ -35,6 +35,7 @@ export const Formulario = () => {
           <h3 className="label-text"> Sobre que deseas buscar?</h3>
 
           <input
+          id="buscar"
             type="text"
             value={inputValue}
             onChange={handleChange}
