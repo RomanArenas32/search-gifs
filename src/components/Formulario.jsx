@@ -32,7 +32,7 @@ export const Formulario = () => {
     <>
       <form className="formulario" onSubmit={handleSubmit}>
         <label>
-          <h3 className="label-text"> Introduce un texto:</h3>
+          <h3 className="label-text"> Sobre que deseas buscar?</h3>
 
           <input
             type="text"
